@@ -1,0 +1,17 @@
+[project]
+name = "smart-factory"
+version = "0.1.0"
+description = "First IoT project"
+readme = "README.md"
+authors = [
+    { name = "Lorenzo Cavallini", email = "cavallinilorenzo05@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+smart-factory = "smart_factory:main"
+
+[build-system]
+requires = ["uv_build>=0.11.16,<0.12.0"]
+build-backend = "uv_build"
